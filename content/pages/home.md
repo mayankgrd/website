@@ -1,6 +1,7 @@
 Title: Welcome
 URL:
 save_as: index.html
+status: hidden
 
 <div class="container-fluid">
   <div class="row clearfix">
@@ -8,9 +9,9 @@ save_as: index.html
       <p> I am a PhD student in electrical engineering at Rice University. I work with <a href="http://www.ece.rice.edu/~ashu/" target="_blank">Dr. Ashu Sabharwal</a> in mobile health (see <a href="http://sh.rice.edu/" target="_blank">Scalable Health</a>) and machine learning. </p>
       <p> You can find my <b><i>curriculum vitae </i> </b> <a href="pdfs/cv.pdf" target ="_blank"> here</a>.</p>
       <h3> My research interests </h3> 
-      <ul> <li> Detecting <b>weak</b> biological signals. </li>
+      <ul> <li> Signal processing techniques for detecting weak biological signals. </li>
+           <li> Developing novel human-computer interaction (HCI) based on vital signs, gaze, facial expression, neurological measurements  etc </li> 
            <li> Machine learning (Representation learning)</li> 
-           <li> Understanding user engagement based on physiological, physical and neurological measurements. </li> 
       </ul>
     </div>
     <div class="col-md-4 column">

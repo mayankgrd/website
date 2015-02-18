@@ -22,7 +22,10 @@ DEFAULT_DATE_FORMAT = '%a %d %B %Y'
 LOAD_CONTENT_CACHE = False 
 
 DISPLAY_CATEGORIES_ON_MENU = False
-DISPLAY_PAGES_ON_MENU = True 
+DISPLAY_PAGES_ON_MENU = False 
+
+MENUITEMS = [('Projects','http://www.ece.rice.edu/~mk28/projects.html'),('ELEC-241 TA','http://www.ece.rice.edu/~mk28/pages/elec-241.html'),('Blog','http://www.ece.rice.edu/~mk28/blog_index.html')]
+ 
 
 
 STATIC_PATHS = ['images', 'pdfs', 'extra']
@@ -32,17 +35,25 @@ STATIC_PATHS = ['images', 'pdfs', 'extra']
 DEFAULT_CATEGORY = 'general'
 
 # Various PATH 
+DIRECT_TEMPLATES = ('blog_index', 'tags', 'categories', 'archives', 'authors')
+
 ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
-PAGE_URL = '{slug}.html'
+PAGE_URL = 'pages/{slug}.html'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 AUTHOR_URL = ''	
 AUTHOR_SAVE_AS = ''
 YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
-INDEX_SAVE_AS = 'blog.html'
-TAGS_SAVE_AS = ''
-TAG_SAVE_AS = ''
+INDEX_SAVE_AS = 'blog_index.html'
+INDEX_URL = 'blog_index.html'
+
+ARCHIVES_URL = 'archives.html'
+ARCHIVES_SAVE_AS = 'archives.html' 
+
+TAGS_URL  = 'tags.html'
+TAGS_SAVE_AS = 'tags.html'
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_RSS = 'feeds/all.rss.xml'
@@ -84,6 +95,11 @@ DISPLAY_TAGS_ON_SIDEBAR = False
 DISPLAY_CATEGORIES_ON_SIDEBAR = True 
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = False 
 RECENT_POST_COUNT = 5 
-
+SHOW_ARTICLE_CATEGORY=True
+SHOW_DATE_MODIFIED=True
+DISPLAY_BREADCRUMBS=False
+DISPLAY_ARTICLE_INFO_ON_INDEX=False
+ADDTHIS_PROFILE='mayankgrd'
+HIDE_SIDEBAR_ARTICLE=False
 #CC_LICENSE = "CC-BY-NC"
-DIRECT_TEMPLATES = (('search',))
+#DIRECT_TEMPLATES = (('search',))
