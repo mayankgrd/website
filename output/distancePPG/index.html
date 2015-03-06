@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>DistancePPG: Robust non-contact vital signs monitoring using a camera - Mayank Kumar</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="http://www.ece.rice.edu/~mk28/distancePPG/">
+
+        <meta name="author" content="Mayank Kumar" />
+        <meta name="description" content="Mayank Kumar, Ashok Veeraraghavan and Ashu Sabharwal 6100 Main Street, Rice University, Houston, Tx, 77005, USA Abstract Vital signs such as pulse rate and breathing rate are currently measured using contact probes. But, non-contact methods for measuring vital signs are desirable both in hospital settings (e.g. in NICU) and ..." />
+
+    <meta property="og:site_name" content="Mayank Kumar" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="DistancePPG: Robust non-contact vital signs monitoring using a camera"/>
+    <meta property="og:url" content="http://www.ece.rice.edu/~mk28/distancePPG/"/>
+    <meta property="og:description" content="Mayank Kumar, Ashok Veeraraghavan and Ashu Sabharwal 6100 Main Street, Rice University, Houston, Tx, 77005, USA Abstract Vital signs such as pulse rate and breathing rate are currently measured using contact probes. But, non-contact methods for measuring vital signs are desirable both in hospital settings (e.g. in NICU) and ..." />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://www.ece.rice.edu/~mk28/theme/css/bootstrap.spacelab.min.css" type="text/css"/>
+    <link href="http://www.ece.rice.edu/~mk28/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="http://www.ece.rice.edu/~mk28/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://www.ece.rice.edu/~mk28/theme/css/style.css" type="text/css"/>
+        <link href="http://www.ece.rice.edu/~mk28/static/custom.css" rel="stylesheet">
+
+        <link href="http://www.ece.rice.edu/~mk28/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Mayank Kumar ATOM Feed"/>
+        <link href="http://www.ece.rice.edu/~mk28/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"
+              title="Mayank Kumar RSS Feed"/>
+
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://www.ece.rice.edu/~mk28/" class="navbar-brand">
+Mayank Kumar            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="http://www.ece.rice.edu/~mk28/projects.html">Projects</a></li>
+                    <li><a href="http://www.ece.rice.edu/~mk28/pages/elec-241.html">ELEC-241 TA</a></li>
+                    <li><a href="http://www.ece.rice.edu/~mk28/blog_index.html">Blog</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://www.ece.rice.edu/~mk28/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+
+    <section id="content" class="body">
+        <h1 class="entry-title">DistancePPG: Robust non-contact vital signs monitoring using a camera</h1>
+        
+        <div class="entry-content">
+            <p class="text-center"><a href="http://www.ece.rice.edu/~mk28/" target="_blank">Mayank Kumar</a>, <a href="http://www.ece.rice.edu/~av21/" target="_blank"> Ashok Veeraraghavan </a> and <a href="http://www.ece.rice.edu/~ashu/" target="_blank">Ashu Sabharwal </a></p>
+
+<p class="text-center text-muted">6100 Main Street, Rice University, Houston, Tx, 77005, USA</p>
+
+<h2>Abstract</h2>
+<p><p class="text-justify">Vital signs such as pulse rate and breathing rate are currently measured using contact probes. But, non-contact methods for measuring vital signs are desirable both in hospital settings (e.g. in NICU) and for ubiquitous in-situ health tracking (e.g. on mobile phone and computers with webcams). Recently, camera-based non-contact vital sign monitoring have been shown to be feasible. However, camera-based vital sign monitoring is challenging for people having darker skin tone, under low lighting conditions, and/or during movement of an individual in front of the camera. In this paper, we propose distancePPG, a new camera-based vital sign estimation algorithm which addresses these challenges. DistancePPG proposes a new method of combining skin-color change signals from different tracked regions of the face using a weighted average, where the weights depend on the blood perfusion and incident light intensity in the region, to improve the signal-to-noise ratio (SNR) of camera-based estimate. One of our key contributions is a new automatic method for determining the weights based only on the video recording of the subject. The gains in SNR of camera-based PPG estimated using distancePPG translate into reduction of the error in vital sign estimation, and thus expand the scope of camera-based vital sign monitoring to potentially challenging scenarios. Further, a dataset is  released, comprising of synchronized video recordings of face and pulse oximeter based ground truth recordings from the earlobe for people with different skin tones, under different lighting conditions and for various motion scenarios.</p></p>
+<div>
+    <img src="http://www.ece.rice.edu/~mk28/images/paper-header.png" class="img-responsive center-block" alt="paper image" width = '80%'>
+    <p class="text-center">Four basic steps in distancePPG: <b>Step (i)</b> Extract landmark points such as eyes, nose, mouth and face boundary from face image, <b>Step (ii) </b> Face is divided into seven regions, each region tracked over the video using computer vision tracker, <b>Step (iii) </b> Each tracked region is further divided into small regions of interest (ROI), <b>Step (iv) </b> DistancePPG computes the goodness metric associated with each ROI based only on the video recordings, and estimate camera-based PPG signal with much higher SNR (signal to noise ratio). For more details, please read our paper.</p> 
+</div>
+
+<p><strong>Paper:</strong> <span class="label label-warning"><a href="http://arxiv.org/pdf/1502.08040v1.pdf" target="_blank"> PDF </a></span> &nbsp;&nbsp;&nbsp; <span class="text-danger"> (Patent Pending)</span></p>
+<h2>Vital sign and PPG Recovered from videos</h2>
+<p><div class="container">
+    <div class="row clearfix">
+        <div class="col-md-4 column">
+            <h3 class="text-center">Non-Caucasian skin tones </h3> 
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" width="500" height="313" src="https://player.vimeo.com/video/121387474" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <p class="text-center">Sample distancePPG performance on a <b> brown skin  tone </b> subject. DistancePPG works for all skin tones. </p>
+        </div>
+        <div class="col-md-4 column">
+            <h3 class="text-center">Motion scenario </h3> 
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" width="500" height="375" src="https://player.vimeo.com/video/121416169" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <p class="text-center">Sample distancePPG performance under <b>motion scenario </b> (talking). Performance deteriorates only when there is large motion or occlusion. </p>
+        </div>
+        <div class="col-md-4 column">
+            <h3 class="text-center">Low lighting conditions </h3> 
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" width="500" height="375" src="https://player.vimeo.com/video/121419114" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <p class="text-center">Sample distancePPG performance under <b> low light scenario </b> (less than 100 lux). Performance does not deteriorate.</p>
+        </div>
+    </div>
+</div></p>
+<h2>Dataset</h2>
+<p>We plan to release the dataset comprising of the video recording of people facing the camera and the simultaneous PPG recording from the pulse-oximeter attached to person's ear. We collected the dataset by varying three important parameters of interest for camera-based vital sign estimation: (i) skin tone of subject, (ii) motion, (iii) ambient light intensity. Details about the dataset can be found <mark><a href="http://www.ece.rice.edu/~mk28/distancePPG/dataset/">here </a></mark></p>
+<h2>Funding</h2>
+<p>The project has been partially funded by National Science Foundation till date, combined with a Rice graduate student fellowship.</p>
+        </div>
+    </section>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2014 Mayank Kumar
+            &middot; Powered by  <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://www.ece.rice.edu/~mk28/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://www.ece.rice.edu/~mk28/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://www.ece.rice.edu/~mk28/theme/js/respond.min.js"></script>
+
+
+</body>
+</html>

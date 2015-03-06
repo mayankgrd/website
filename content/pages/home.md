@@ -22,4 +22,26 @@ status: hidden
     </div>
   </div>
 </div>
+<div class="container">
+  <div class="row clearfix">
+    <div class="col-md-6 column">
+      <h3> Projects </h3> 
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <a href="{filename}distancePPG.md">DistancePPG </a><span class="label label-primary" style="float:right">Aug, 2013- Dec, 2014</span>
+        </div>
+        <div class="panel-body">
+          A non-contact camera-based vital sign (pulse rate, breathing rate, pulse rate variability) monitor. <a class="text-primary" href="{filename}distancePPG.md">Know more ...</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 column">
+      <h3> Latest News </h3> 
+      <span class="label label-warning">Feb'15 </span> DistancePPG paper accepted in Biomedical Optics Express. </br> 
+      <span class="label label-warning">Jan'15 </span> Talk on DistancePPG in IIT Chennai (India) </br>  
+      <span class="label label-warning">May'14 </span> Defended Masters thesis </br>
+      <span class="label label-warning">Mar'14 </span> Received audiance choice award in Rice 90 second thesis competition.  </br>
+    </div>
+  </div>
+</div>
 
