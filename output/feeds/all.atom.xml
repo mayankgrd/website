@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mayank Kumar</title><link href="http://www.ece.rice.edu/~mk28/" rel="alternate"></link><link href="http://www.ece.rice.edu/~mk28/feeds/all.atom.xml" rel="self"></link><id>http://www.ece.rice.edu/~mk28/</id><updated>2014-12-12T10:20:00+01:00</updated><entry><title>Hello Pelican!</title><link href="http://www.ece.rice.edu/~mk28/posts/2014/Dec/12/hello-pelican/" rel="alternate"></link><updated>2014-12-12T10:20:00+01:00</updated><author><name>Mayank Kumar</name></author><id>tag:www.ece.rice.edu,2014-12-12:~mk28/posts/2014/Dec/12/hello-pelican/</id><summary type="html">&lt;p&gt;Lets keep things simple. Use Pelican! &lt;/p&gt;
-&lt;p&gt;Pelican is written in Python. It is easy to upload to servers that only support HTML pages. You run the Python code on your system, and upload the HTML output to server. &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;batteriesIncluded&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
-    &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Pelican support IPython notebooks as well!&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary></entry></feed>

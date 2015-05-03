@@ -11,3 +11,5 @@ Pelican is written in Python. It is easy to upload to servers that only support 
 		print "Pelican support IPython notebooks as well!"
 
 
+Lets also check if math works good here. We known $E=mc^2$ is causing everything to move. 
+

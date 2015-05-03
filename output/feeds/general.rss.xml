@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mayank Kumar</title><link>http://www.ece.rice.edu/~mk28/</link><description></description><atom:link href="http://www.ece.rice.edu/~mk28/feeds/general.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 12 Dec 2014 10:20:00 +0100</lastBuildDate><item><title>Hello Pelican!</title><link>http://www.ece.rice.edu/~mk28/posts/2014/Dec/12/hello-pelican/</link><description>&lt;p&gt;Lets keep things simple. Use Pelican! &lt;/p&gt;
-&lt;p&gt;Pelican is written in Python. It is easy to upload to servers that only support HTML pages. You run the Python code on your system, and upload the HTML output to server. &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;batteriesIncluded&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
-    &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Pelican support IPython notebooks as well!&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mayank Kumar</dc:creator><pubDate>Fri, 12 Dec 2014 10:20:00 +0100</pubDate><guid>tag:www.ece.rice.edu,2014-12-12:~mk28/posts/2014/Dec/12/hello-pelican/</guid></item></channel></rss>

@@ -6,7 +6,7 @@ AUTHOR = u'Mayank Kumar'
 SITENAME = u'Mayank Kumar'
 SITEURL = ''
 
-
+GOOGLE_ANALYTICS = 'UA-2241250-4'
 
 PATH = 'content'
 
@@ -24,7 +24,7 @@ LOAD_CONTENT_CACHE = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False 
 
-MENUITEMS = [('Projects','http://www.ece.rice.edu/~mk28/projects.html'),('ELEC-241 TA','http://www.ece.rice.edu/~mk28/pages/elec-241.html'),('Blog','http://www.ece.rice.edu/~mk28/blog_index.html')]
+MENUITEMS = [('Projects','http://www.ece.rice.edu/~mk28/projects.html'),('ELEC-241 TA','http://www.ece.rice.edu/~mk28/pages/elec-241.html'),('Blog','http://www.ece.rice.edu/~mk28/blog.html')]
  
 
 
@@ -35,7 +35,7 @@ STATIC_PATHS = ['images', 'pdfs', 'extra']
 DEFAULT_CATEGORY = 'general'
 
 # Various PATH 
-DIRECT_TEMPLATES = ('blog_index', 'tags', 'categories', 'archives', 'authors')
+DIRECT_TEMPLATES = ('blog', 'tags', 'categories', 'archives', 'authors')
 
 ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
@@ -102,4 +102,6 @@ DISPLAY_ARTICLE_INFO_ON_INDEX=False
 ADDTHIS_PROFILE='mayankgrd'
 HIDE_SIDEBAR_ARTICLE=False
 #CC_LICENSE = "CC-BY-NC"
-#DIRECT_TEMPLATES = (('search',))
+
+PLUGIN_PATHS =['plugins']
+PLUGINS = ["render_math"]
