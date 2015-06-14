@@ -8,15 +8,23 @@ status: hidden
 <p class="text-center"><a href="http://www.ece.rice.edu/~mk28/" target="_blank">Mayank Kumar</a>, <a href="http://www.ece.rice.edu/~av21/" target="_blank"> Ashok Veeraraghavan </a> and <a href="http://www.ece.rice.edu/~ashu/" target="_blank">Ashu Sabharwal </a></p>
 <p class="text-center text-muted">6100 Main Street, Rice University, Houston, Tx, 77005, USA</p>
 
-## Abstract
-<p class="text-justify">Vital signs such as pulse rate and breathing rate are currently measured using contact probes. But, non-contact methods for measuring vital signs are desirable both in hospital settings (e.g. in NICU) and for ubiquitous in-situ health tracking (e.g. on mobile phone and computers with webcams). Recently, camera-based non-contact vital sign monitoring have been shown to be feasible. However, camera-based vital sign monitoring is challenging for people having darker skin tone, under low lighting conditions, and/or during movement of an individual in front of the camera. In this paper, we propose distancePPG, a new camera-based vital sign estimation algorithm which addresses these challenges. DistancePPG proposes a new method of combining skin-color change signals from different tracked regions of the face using a weighted average, where the weights depend on the blood perfusion and incident light intensity in the region, to improve the signal-to-noise ratio (SNR) of camera-based estimate. One of our key contributions is a new automatic method for determining the weights based only on the video recording of the subject. The gains in SNR of camera-based PPG estimated using distancePPG translate into reduction of the error in vital sign estimation, and thus expand the scope of camera-based vital sign monitoring to potentially challenging scenarios. Further, a dataset is  released, comprising of synchronized video recordings of face and pulse oximeter based ground truth recordings from the earlobe for people with different skin tones, under different lighting conditions and for various motion scenarios.</p>
+
+## THE PROBLEM?
+
+Measuring and monitoring any patient's vital signs is essential for their care- in fact, all care first begins by collecting vital signs like heart rate and blood pressure. The current standard of care is based on monitoring devices that require contact - electrocardiograms, pulse-oximeter, blood pressure cuffs, and chest straps. However, contact-based methods have serious limitations for monitoring vital signs of neonates as they have extremely sensitive skin and most contact-based vital sign monitoring techniques result in skin abrasions, peeling and damage every time the leads or patches are removed. This results in potentially dangerous sites for infection increasing the mortality risk to the neonates.
+
+## OUR SOLUTION
+
+We propose to use normal camera to measure the vital signs of a patient by simply recording video of their face in a non-contact manner. From the recorded video of the face, our algorithm, distancePPG, extracts pulse rate (PR), pulse rate variability (PRV) and breathing rate (BR). The algorithm is based on estimating tiny changes in skin color due to changes in blood volume underneath the skin surface (these changes are invisible to the naked eye, but can be captured by a camera).
+
+Our algorithm, distancePPG (patent pending), achieves clinical grade accuracy for all skin tones, under low light conditions and can account for natural motion of subjects. It does so by intelligently combining skin color change signal from different regions of the visible skin in a manner that improves the overall signal strength. Our algorithm results in as much as 6dB of SNR improvement in harsh scenarios, rapidly expanding the scope, viability, reach and utility of CameraVitals as a replacement for traditional contact-based vital sign monitor.
 
 <div>
 	<img src="{filename}/images/paper-header.png" class="img-responsive center-block" alt="paper image" width = '80%'>
 	<p class="text-center">Four basic steps in distancePPG: <b>Step (i)</b> Extract landmark points such as eyes, nose, mouth and face boundary from face image, <b>Step (ii) </b> Face is divided into seven regions, each region tracked over the video using computer vision tracker, <b>Step (iii) </b> Each tracked region is further divided into small regions of interest (ROI), <b>Step (iv) </b> DistancePPG computes the goodness metric associated with each ROI based only on the video recordings, and estimate camera-based PPG signal with much higher SNR (signal to noise ratio). For more details, please read our paper.</p> 
 </div>
 
-**Paper:** <span class="label label-warning"><a href="http://arxiv.org/pdf/1502.08040v1.pdf" target="_blank"> PDF </a></span> &nbsp;&nbsp;&nbsp; <span class="text-danger"> (Patent Pending)</span>
+**Paper:** <span class="label label-warning"><a href="https://www.osapublishing.org/boe/abstract.cfm?uri=boe-6-5-1565" target="_blank"> PDF </a></span> &nbsp;&nbsp;&nbsp; <span class="text-danger"> (Patent Pending)</span>
 
 ## Vital sign and PPG Recovered from videos 
 <div class="container">

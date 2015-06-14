@@ -1,0 +1,3 @@
+[submodule "plugins/render_math_"]
+	path = plugins/render_math_
+	url = https://github.com/barrysteyn/pelican_plugin-render_math.git
