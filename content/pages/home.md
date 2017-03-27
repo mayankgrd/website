@@ -16,7 +16,7 @@ status: hidden
     </div>
     <div class="col-md-4 column">
       <div style="text-align: center">
-      <img src="images/mayank2.JPG" align="center" alt = "Mayank's image" class="img-thumbnail" style="width:150px;"/> </br> 
+      <img src="images/mayank_photo.jpg" align="center" alt = "Mayank's image" class="img-thumbnail" style="width:200px;"/> </br> 
       <span class="glyphicon glyphicon-envelope"></span> <b> Email: </b> mk28 at rice dot edu <br /> 
       <a href="https://www.facebook.com/mayankgrd" target="_blank"><i class="fa fa-facebook-square fa-3x"> </i> </a> 
       <a href="https://www.linkedin.com/profile/view?id=35092214" target="_blank"> <i class="fa fa-linkedin-square fa-3x"></i> </a> 
@@ -76,7 +76,7 @@ status: hidden
     </div>
     <div class="col-md-6 column">
       <h3> Latest News </h3> 
-      <span class="label label-warning">Aug'16 </span> Received NSF young professional travel award during EMBC'16.</br>
+      <span class="label label-warning">Aug'16 </span> Received NSF Awards for young professionals contributing to smart and connected health.</br>
       <span class="label label-warning">April'16 </span> <b>PulseCam</b> paper accepted in EMBC'16 </br> 
       <span class="label label-warning">Oct'15 </span> ScaleMed paper presented in IEEE HealthCom (2015, Boston) by Peter Washington</br> 
       <span class="label label-warning">August'15 </span> <a href="http://www.gausssurgical.com/"><b>Gauss Surgical Inc </b></a> evaluating CameraVitals for in-hospital applications </br> 

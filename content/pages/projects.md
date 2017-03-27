@@ -1,6 +1,26 @@
 Title: Projects
 save_as: projects.html
 
+### PulseCam ###
+**High-resolution blood perfusion imaging using a camera and a pulse oximeter** 
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-8 column">
+		<p class="text-justify"><b> PulseCam </b >is a new multi-sensor blood flow imaging device. PulseCam leverages the advantages in Image sensors and illumination to capture videos of skin surface, and relies on computational imaging, signal recovery and computer vision algorithms to peek inside the skin surface and measure blood flow.  PulseCam measures peripheral blood flow using a patent pending algorithm which combines the video recording of the skin surface and a pulse oximeter. At each pixel, pulseCam reliably estimates the amplitude of the photoplethysmogram (PPG) waveform or the blood volume waveform. Thus, it is similar to the Perfusion Index (PI) measurement produced by many conventional contact pulse oximeters. But, since PulseCam is an imaging modality, it produces “spatial maps of perfusion index” over the imaged skin surface, as opposed to a point measure such as perfusion index.  </p>
+		</div>
+		<div class="col-md-4 column">
+			<img src="{filename}/images/PulseCam-steps-short.png" class="img-responsive center-block" alt="paper image" width = '100%'>
+		</div>
+	</div>
+</div>
+
+**Know more: ** <a href="{filename}pulseCam.md"><mark>Project webpage</mark> </a>
+
+**Paper:** <mark> <a href="http://ieeexplore.ieee.org/document/7591581/" target="_blank"> Link </a></mark> &nbsp;&nbsp; |  <mark> <a href="pdfs/PulseCam.pdf"> PDF </a></mark>
+
+<hr size="20"> 
+
 ### CameraVitals ###
 **Robust non-contact vital signs monitoring using a camera** 
 
@@ -17,7 +37,9 @@ save_as: projects.html
 	</div>
 </div>
 
-**Paper:** <mark> <a href="https://www.osapublishing.org/boe/abstract.cfm?uri=boe-6-5-1565" target="_blank"> Link </a></mark> &nbsp;&nbsp; |  <mark> <a href="pdfs/distancePPG.pdf"> PDF </a></mark> | **Know more: ** <a href="{filename}distancePPG.md"><mark>Project webpage</mark> <a> |<a href="{filename}distancePPG-dataset.md"> <mark> Dataset  </mark></a> 
+**Know more: ** <a href="{filename}distancePPG.md"><mark>Project webpage</mark> </a>
+
+**Paper:** <mark> <a href="https://www.osapublishing.org/boe/abstract.cfm?uri=boe-6-5-1565" target="_blank"> Link </a></mark> &nbsp;&nbsp; |  <mark> <a href="pdfs/distancePPG.pdf"> PDF </a></mark> |<a href="{filename}distancePPG-dataset.md"> <mark> Dataset  </mark></a> 
 
 <hr size="20"> 
 ### ScaleMed ###
@@ -42,8 +64,9 @@ save_as: projects.html
 </div>
 </div>
 
+**Know more: ** <a href="https://github.com/Rice-Scalable-Health/scaleMed"><mark>Project webpage</mark> 
 
-**Paper:** <mark> <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7454487&isnumber=7454459" target="_blank"> Link </a></mark> |  <mark> <a href="pdfs/scaleMed.pdf"> PDF </a></mark> | **Know more: ** <a href="https://github.com/Rice-Scalable-Health/scaleMed"><mark>Project webpage</mark> 
+**Paper:** <mark> <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7454487&isnumber=7454459" target="_blank"> Link </a></mark> |  <mark> <a href="pdfs/scaleMed.pdf"> PDF </a></mark> 
 
  
 

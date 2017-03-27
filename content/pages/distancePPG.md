@@ -54,7 +54,7 @@ status: hidden
 </div>
 
 ## Paper 
-M. Kumar, A. Veeraraghavan, and A. Sabharwal, "DistancePPG: Robust non-contact vital signs monitoring using a camera," Biomed. Opt. Express  6, 1565-1588 (2015) <mark> (Patent Pending) </mark> 
+M. Kumar, A. Veeraraghavan, and A. Sabharwal, "DistancePPG: Robust non-contact vital signs monitoring using a camera," Biomed. Opt. Express  6, 1565-1588 (2015) <mark> (Patent Pending) </mark> <mark> <a href="{filename}/pdfs/distancePPG.pdf"> PDF </a></mark>
 
 <b>Cite (BibTex) </b>
 <pre>

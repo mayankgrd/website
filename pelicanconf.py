@@ -24,7 +24,12 @@ LOAD_CONTENT_CACHE = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False 
 
-MENUITEMS = [('Projects','http://www.ece.rice.edu/~mk28/projects.html'),('ELEC-241 TA','http://www.ece.rice.edu/~mk28/pages/elec-241.html'),('Blog','http://www.ece.rice.edu/~mk28/blog.html')]
+MENUITEMS = [('Projects','http://www.ece.rice.edu/~mk28/projects.html'),
+('Publications','http://www.ece.rice.edu/~mk28/publications.html'),
+#('Blog','http://www.ece.rice.edu/~mk28/blog.html'), 
+('Books','http://www.ece.rice.edu/~mk28/books.html'),
+#('Bookmarks','http://www.ece.rice.edu/~mk28/bookmarks.html'),
+('Interests','http://www.ece.rice.edu/~mk28/interesting.html')]
  
 
 
@@ -81,7 +86,7 @@ RELATIVE_URLS = True
 
 
 
-THEME = 'pelican-bootstrap3'
+THEME = 'themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'spacelab'
 BOOTSTRAP_NAVBAR_INVERSE = True
 
@@ -101,7 +106,7 @@ DISPLAY_BREADCRUMBS=False
 DISPLAY_ARTICLE_INFO_ON_INDEX=False
 ADDTHIS_PROFILE='mayankgrd'
 HIDE_SIDEBAR_ARTICLE=False
-#CC_LICENSE = "CC-BY-NC"
+#\CC_LICENSE = "CC-BY-NC"
 
 PLUGIN_PATHS =['plugins']
-PLUGINS = ["render_math"]
+#PLUGINS = ["render_math"]

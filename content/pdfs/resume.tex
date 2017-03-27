@@ -3,6 +3,8 @@
 
 \documentclass[margin]{res} 
 % the margin option causes section titles to appear to the left of body text 
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=false}
 \textwidth=5.2in % increase textwidth to get smaller right margin
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
@@ -13,7 +15,8 @@
 
 \address{Rice University \\ ECE Department, MS-380 \\ 6100 Main Street  \\ Houston, TX 77005         }
         
-\address{{} \\ \emph{Phone:}     832-593-1893 \\ \emph{Email:}   mk28@rice.edu }
+\address{{} \\ \emph{Phone:}     832-593-1893 \\ \emph{Email:}   mk28@rice.edu \\ \emph{Website:}
+\url{www.ece.rice.edu/~mk28/}}
 
 
  
@@ -23,41 +26,48 @@
 To be a leader in technology which touches human lives  
 
 \section{Education} 
-PhD student, Electrical Engineering, Rice University \hfill{2014 - Present} \\
+PhD candidate, Electrical and Computer Engineering, Rice University \hfill{2014 - Present} \\
  \emph{Advised by Dr. Ashutosh Sabharwal} \\
-MS in Electrical Engineering, Rice University \hfill{Aug, 2014}  \\
+MS in Electrical and Computer Engineering, Rice University \hfill{Aug, 2014}  \\
  \emph{GPA $4.04/4.00$} \\
 B.Tech in Electrical Engineering, IIT, Delhi \hfill{May, 2010}  \\
  \emph{GPA $8.96 / 10.00$, Department Rank 3}   \\
 
+\vspace{-5mm}
 \section{Scholastic \\ Achievements}
-Texas Instrument distinguished graduate fellow (2012-Present) \\
-“Audience Choice Award” in the RICE 90 second Thesis Competition 2014  \\
-“Best Graduate Student Poster”, RICE ECE Affiliates Day 2014 \\
+NSF Awards for young professionals contributing to smart and connected health (2016) 
+Texas Instruments Graduate Student Fellowship (2015-Present) \\
+“Audience Choice Award”, Rice 90 Second Thesis Competition 2014  \\
+“Best Graduate Student Poster”, Rice ECE Affiliates Day 2014 \\
 NASA Space Health Challenge 2014 (2nd Prize)  \\
 Best B.Tech Project Award in IIT Delhi, 2010 \\
 Yahoo HackU Award, 2009  by Yahoo R\&D \\
 Indian National Physics Olympiad, 2006
 
-\section{Graduate Research}
-\textbf{MS Thesis} Robust estimations of Photoplethysmograms using a camera \hfill{Fall 2013, Spring 2014 }\\
+\section{MS Research}
+Robust estimations of Photoplethysmograms using a camera \hfill{Spring 2014 }\\
  \begin{itemize} \itemsep -2pt  % reduce space between items
- \item Developed new algorithm (distancePPG) for monitoring vital sign (pulse rate, pulse rate variability, breathing rate) using a person's video 
- \item Improved performance of current known method to make it work for all skin tones, under varied lighting conditions and in natural motion scenarios 
+ \item Developed a new algorithm (distancePPG) for monitoring vital signs (pulse rate, pulse rate variability, breathing rate) using a person's video 
+ \item Improved performance of existing methods to make it work for all skin tones, under varied lighting conditions and in different motion scenarios 
  \end{itemize}
 
-\section{Publications and Patent}
+\section{Publications}
 [J1] Mayank Kumar, Ashok Veeraraghavan, and Ashutosh Sabharwal, "DistancePPG: Robust non-contact vital signs monitoring using a camera," Biomed. Opt. Express 6, 1565-1588 (2015)
 
-[C1] Peter Washington, Mayank Kumar, Anant Tibrewal, and Ashutosh Sabharwal, 'ScaleMed: A Methodology for Iterative mHealth Clinical Trials' IEEE Healthcom 2015 - SSH 2015.
+[C1] Mayank Kumar, James Suliburk, Ashok Veeraraghavan and Ashutosh Sabharwal, "PulseCam: High-resolution blood perfusion imaging using a camera and a pulse oximeter," 2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Orlando, FL, 2016, pp. 3904-3909.
 
-[C2] M. Chowdhary, CSR Technology, USA; M. Sharma, A. Kumar, IIT, India; S. Dayal, CSR Technology, India; M. Kumar, IIT, India. Robust Attitude Estimation for Indoor Pedestrian Navigation using MEMS Sensors. ION GNSS 2012 
+[C2] Peter Washington, Mayank Kumar, Anant Tibrewal, and Ashutosh Sabharwal, 'ScaleMed: A Methodology for Iterative mHealth Clinical Trials' IEEE Healthcom 2015 - SSH 2015.
 
-[C3] Dhruv Jain, Himanshu Gupta, Deeksha Gautam, Mayank Kumar, Vinay Ribeiro, Manish Sharma. Whitespace Network for Vehicular Communication. COMSNETS 2013
+[C3] M. Chowdhary, CSR Technology, USA; M. Sharma, A. Kumar, IIT, India; S. Dayal, CSR Technology, India; M. Kumar, IIT, India. Robust Attitude Estimation for Indoor Pedestrian Navigation using MEMS Sensors. ION GNSS 2012 
 
-[P1] A robust non-contact vital sign monitoring algorithm (2014 US Provisional).
+[C4] Dhruv Jain, Himanshu Gupta, Deeksha Gautam, Mayank Kumar, Vinay Ribeiro, Manish Sharma. Whitespace Network for Vehicular Communication. COMSNETS 2013
 
-[P2] A system and apparatus for Auditory Evoked Potential (AEP) data acquisition for hearing screening (2011 India Patent)
+\section{Patents}
+[P1] Camera-based photoplethysmogram estimation (US Utility Patent Application, Nov 2015) 
+
+[P2] High resolution blood perfusion imaging using a camera and a pulse oximeter (US Provisional Patent, April 2016)
+
+[P3] A system and apparatus for Auditory Evoked Potential (AEP) data acquisition for hearing screening (India Patent, 2011)
 
 \section{Experience}
   {\bf Innovator-in-Residence,} Gauss Surgical Inc., Los Altos, CA.  \hfill Summer  2015
@@ -87,7 +97,7 @@ Indian National Physics Olympiad, 2006
 \end{itemize}
 
 
-{\bf Algorithm developer,} CSR plc, Noida,  \hfill
+{\bf Algorithm Developer,} CSR plc, Noida,  \hfill
 Spring 2011
 \begin{itemize} \itemsep -2pt
  \item Developed error model using Extended Kalman filter (EKF) for a mobile phone based pedestrian navigation system
@@ -114,9 +124,11 @@ Summer 2009
 
 \section{Technical Skills}
 {\bf Programming Language}: Python, C/C++, MATLAB, VHDL \\
-{\bf Software Libraries}: OpenCV (Computer Vision), Scikit Learn (Machine Learning), Theano (deep-learning), OpeGL (Computer Graphics) \\
+{\bf Software Libraries}: OpenCV (Computer Vision), Scikit Learn (Machine Learning), TensorFlow (deep-learning), OpeGL (Computer Graphics) \\
 {\bf Hardware Platform}: Arduino, BeagleBone, C5515 TI DSP, DM365 DaVinci, Xilinx Virtex IV 
-
+\section{References*} 
+Dr. Ashutosh Sabharwal (Prof. Rice, ECE), Dr. Ashok Veeraraghavan (Asst. Prof. Rice, ECE), James W. Suliburk, MD, FACS (Asst. Prof. of Surgery, Baylor College of Medicine), Siddharth Satish (Founder and CEO, Gauss Surgical) \\
+\qquad \emph{* All references are made available upon request}
 
 \end{resume} 
 \end{document} 
