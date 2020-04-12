@@ -7,10 +7,12 @@ save_as: projects.html
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-8 column">
-		<p class="text-justify"><b> PulseCam </b >is a new multi-sensor blood flow imaging device. PulseCam leverages the advantages in Image sensors and illumination to capture videos of skin surface, and relies on computational imaging, signal recovery and computer vision algorithms to peek inside the skin surface and measure blood flow.  PulseCam measures peripheral blood flow using a patent pending algorithm which combines the video recording of the skin surface and a pulse oximeter. At each pixel, pulseCam reliably estimates the amplitude of the photoplethysmogram (PPG) waveform or the blood volume waveform. Thus, it is similar to the Perfusion Index (PI) measurement produced by many conventional contact pulse oximeters. But, since PulseCam is an imaging modality, it produces “spatial maps of perfusion index” over the imaged skin surface, as opposed to a point measure such as perfusion index.  </p>
+		<p class="text-justify"><b> PulseCam </b >is a new multi-sensor blood flow imaging device. PulseCam leverages the advantages in Image sensors and illumination to capture videos of skin surface, and relies on computational imaging, signal recovery and computer vision algorithms to peek inside the skin surface and measure blood flow.  PulseCam measures peripheral blood flow using a patented algorithm which combines the video recording of the skin surface and a pulse waveform recorded using a pulse oximeter or a fitness band. At each pixel, pulseCam reliably estimates the amplitude of the photoplethysmogram (PPG) waveform or the blood volume waveform. Thus, it is similar to the Perfusion Index (PI) measurement produced by many conventional contact pulse oximeters. But, since PulseCam is an imaging modality, it produces “spatial maps of perfusion index” over the imaged skin surface, as opposed to a point measure such as perfusion index. Also, PulseCam has higher sensitivity in detecting blood perfusion changes in the micro-vesssels just underneath the skin surface compared to a pulse oximeter. </p>
 		</div>
 		<div class="col-md-4 column">
-			<img src="{filename}/images/PulseCam-steps-short.png" class="img-responsive center-block" alt="paper image" width = '100%'>
+			<div class="embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/GWzlHQEwug4?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
 		</div>
 	</div>
 </div>

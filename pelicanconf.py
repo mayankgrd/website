@@ -27,9 +27,9 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = [('Projects','http://www.ece.rice.edu/~mk28/projects.html'),
 ('Publications','http://www.ece.rice.edu/~mk28/publications.html'),
 #('Blog','http://www.ece.rice.edu/~mk28/blog.html'), 
-('Books','http://www.ece.rice.edu/~mk28/books.html'),
+('Books','http://www.ece.rice.edu/~mk28/books.html')]
 #('Bookmarks','http://www.ece.rice.edu/~mk28/bookmarks.html'),
-('Interests','http://www.ece.rice.edu/~mk28/interesting.html')]
+#('Interests','http://www.ece.rice.edu/~mk28/interesting.html')]
  
 
 

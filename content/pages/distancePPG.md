@@ -75,6 +75,9 @@ year = {2015}
 }
 </pre>
 
+## MS-Thesis 
+Kumar, Mayank. "Robust acquisition of Photoplethysmograms using a Camera." (2014) Master's Thesis, Rice University. <a href="http://hdl.handle.net/1911/88445" target="_blank">http://hdl.handle.net/1911/88445</a> <mark> <a href="{filename}/pdfs/masters-thesis.pdf"> PDF </a></mark>.
+
 ## Vital sign and PPG Recovered from videos 
 <div class="container">
 	<div class="row clearfix">
