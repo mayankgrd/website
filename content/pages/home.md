@@ -6,10 +6,12 @@ status: hidden
 <div class="container-fluid">
   <div class="row clearfix">
     <div class="col-md-8 column">
-      <p class="text-justify"> I completed my Ph.D. from Electrical and Computer engineering department at Rice University in April 2018 and was a  member of the <a href="http://sh.rice.edu/" target="_blank">Scalable Health</a>)  lab. I worked with <a href="http://www.ece.rice.edu/~ashu/" target="_blank">Dr. Ashu Sabharwal</a> and <a href="https://www.ece.rice.edu/~av21/" target="_black"> Dr. Ashok Veeraraghavan </a> and actively collaborated with <a href="https://www.bcm.edu/people/view/james-suliburk-m-d-facs/b264d8d6-ffed-11e2-be68-080027880ca6" target="_blank">Dr. James Suliburk </a> at Baylor College of Medicine for evaluation and translation of new medical technologies into clinical practice. </p>
+      <p class="text-justify"> I completed my Ph.D. from Electrical and Computer engineering department at Rice University in April 2018. At Rice, I was part of the <a href="http://sh.rice.edu/" target="_blank">Scalable Health</a>)  lab and <a href="https://computationalimaging.rice.edu/" target='_blank'> Computational Imaging lab </a>, and my Ph.D. was in computer vision and computational imaging with special focus on health applications. At Rice, I worked with <a href="http://www.ece.rice.edu/~ashu/" target="_blank">Dr. Ashu Sabharwal</a> and <a href="https://www.ece.rice.edu/~av21/" target="_black"> Dr. Ashok Veeraraghavan </a> and actively collaborated with <a href="https://www.bcm.edu/people/view/james-suliburk-m-d-facs/b264d8d6-ffed-11e2-be68-080027880ca6" target="_blank">Dr. James Suliburk </a> at Baylor College of Medicine for evaluation and translation of new medical technologies into clinical practice. </p>
 
-      <p class="text-justify"> <b> Ph.D. research: </b> As part of my Ph.D. research, I have developed a new camera-based non-invasive and clinically proven blood flow imaging modality, named PulseCam, that can reliably measure the flow of blood (microcirculation) underneath the skin surface from only the video recording of the skin surface. PulseCam has potential clinical applications in surgery, critical care and as a point-of-care device to diagnose peripheral arterial disease, and to monitor wounds and burns. PulseCam has already been evaluated to monitor microcirculation in patients undergoing surgery. </p>
+      <p class="text-justify"> <b> Ph.D. research: </b> As part of my Ph.D. research, I have developed a new camera-based non-invasive and clinically proven blood flow imaging modality, named PulseCam, that can reliably measure the flow of blood (microcirculation) underneath the skin surface from only the video recording of the skin surface. PulseCam has potential clinical applications in surgery, critical care and as a point-of-care device to diagnose peripheral arterial disease, and to monitor wounds and burns. PulseCam has already been evaluated to monitor microcirculation in patients undergoing surgery, and is currently being considered for potential commercialization. </p>
 
+
+      
 
  	 <p class="text-justify"> <b> Research interests: </b> My research interest is in developing health monitoring systems that can reliably and continuously measure people's health at the comfort of their homes and offices, e.g., by utilizing cameras, wearables, and implantables. I also have a keen interest in predictive machine learning and deep learning algorithms that can model the state of a person's health as it evolves so that we can provide actionable feedback to the individual and the caregiver to improve health outcomes. </p>
 
@@ -24,7 +26,7 @@ status: hidden
     <div class="col-md-4 column">
       <div style="text-align: center">
       <img src="images/mayank_photo.jpg" align="center" alt = "Mayank's image" class="img-thumbnail" style="width:200px;"/> </br> 
-      <span class="glyphicon glyphicon-envelope"></span> <b> Email: </b> mk28 at rice dot edu <br /> 
+      <span class="glyphicon glyphicon-envelope"></span> <b> Email: </b> mayank.grd@gmail.com <br /> 
       <a href="https://www.facebook.com/mayankgrd" target="_blank"><i class="fa fa-facebook-square fa-3x"> </i> </a> 
       <a href="https://www.linkedin.com/in/mayankgrd/" target="_blank"> <i class="fa fa-linkedin-square fa-3x"></i> </a> 
       <a href="https://github.com/mayankgrd" target="_blank"><i class="fa fa-github-square fa-3x"> </i> </a>
@@ -38,13 +40,15 @@ status: hidden
   <div class="col-md-12 column">
     <h3> Recent Publications </h3>
     <ul>
-      <li><b>Mayank Kumar</b>, James Suliburk, Ashok Veeraraghavan and Ashutosh Sabharwal, "PulseCam: High-resolution blood perfusion imaging using a camera and a pulse oximeter," Engineering in Medicine and Biology Society (EMBC) <i>(to be presented during 38th IEEE EMBC conference in Orlando, FL in August, 2016)</i> 
+      <li><b> Mayank Kumar </b>, James W. Suliburk, Ashok Veeraraghavan, and Ashutosh Sabharwal. "pulsecam: a camera-based, motion-robust and highly sensitive blood perfusion imaging modality." Scientific Reports 10, no. 1 (2020): 1-17.
+      <li><b>Mayank Kumar</b>, James Suliburk, Ashok Veeraraghavan and Ashutosh Sabharwal, "PulseCam: High-resolution blood perfusion imaging using a camera and a pulse oximeter," 2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Orlando, FL, 2016, pp. 3904-3909.
       <li> Peter Washington, <b>Mayank Kumar</b>, Anant Tibrewal, and Ashutosh Sabharwal, "ScaleMed: A Methodology for Iterative mHealth Clinical Trials", IEEE Healthcom 2015 - SSH 2015.
     </ul>
     A complete list of recent publications can be found <mark><a href="http://www.ece.rice.edu/~mk28/publications.html">here </a></mark>. 
     <h3> Recent Posters and Demos </h3>
     <ul>
-      <li> <b>Mayank Kumar</b>, Ashok Veeraraghavan, and Ashutosh Sabharwal, <em>'DistancePPG: Robust webcam-based vital signs monitoring'</em>, ICCP 2015. 
+      <li> <b> Mayank Kumar </b>, Keng-Tsai Lin, BS, Robert L. Thurer, MD, Siddarth Satish, MS, Gauss Surgical, Inc., Real Time Measurement of Surgical Blood Loss in Suction Tubing Using Computer Vision and Machine Learning, Society for Technology in Anesthesia, 2020. 
+      <li> <b>Mayank Kumar</b>, Ashok Veeraraghavan, and Ashutosh Sabharwal, <em>'DistancePPG: Robust webcam-based vital signs monitoring'</em>, IEEE International Conference on Computational Photography,  2015. 
     </ul>
   </div>
 </div>
@@ -82,6 +86,8 @@ status: hidden
     </div>
     <div class="col-md-6 column">
       <h3> Latest News </h3> 
+      <span class="label label-warning">March'20 </span> PulseCam paper accepted in Nature Scientific Reports, see <a href="https://rdcu.be/b3xep" target="_blank"> here </a> </br>
+      <span class="label label-warning">July'18 </span> Joined Gauss Surgical Inc. as Director of Research </br>
       <span class="label label-warning">April'18 </span> Defended Ph.D. </br>
       <span class="label label-warning">March'18 </span> Received the 2018 Best Ph.D. presenter award for PulseCam.</br>
       <span class="label label-warning">Apr'17 </span> Received the 2017 Hershel M. Rich Invention Award.</br>

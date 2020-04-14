@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
 AUTHOR = u'Mayank Kumar'
@@ -86,10 +84,12 @@ RELATIVE_URLS = True
 
 
 
+
 THEME = 'themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'spacelab'
 BOOTSTRAP_NAVBAR_INVERSE = True
 
+#PADDED_SINGLE_COLUMN_STYLE = True 
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'} }
 

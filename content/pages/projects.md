@@ -1,13 +1,13 @@
 Title: Projects
 save_as: projects.html
 
-### PulseCam ###
+### <a href="{filename}pulseCam.md" > PulseCam </a> ###
 **High-resolution blood perfusion imaging using a camera and a pulse oximeter** 
 
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-8 column">
-		<p class="text-justify"><b> PulseCam </b >is a new multi-sensor blood flow imaging device. PulseCam leverages the advantages in Image sensors and illumination to capture videos of skin surface, and relies on computational imaging, signal recovery and computer vision algorithms to peek inside the skin surface and measure blood flow.  PulseCam measures peripheral blood flow using a patented algorithm which combines the video recording of the skin surface and a pulse waveform recorded using a pulse oximeter or a fitness band. At each pixel, pulseCam reliably estimates the amplitude of the photoplethysmogram (PPG) waveform or the blood volume waveform. Thus, it is similar to the Perfusion Index (PI) measurement produced by many conventional contact pulse oximeters. But, since PulseCam is an imaging modality, it produces “spatial maps of perfusion index” over the imaged skin surface, as opposed to a point measure such as perfusion index. Also, PulseCam has higher sensitivity in detecting blood perfusion changes in the micro-vesssels just underneath the skin surface compared to a pulse oximeter. </p>
+		<p class="text-justify">PulseCam is a new camera-based blood perfusion imaging modality that enables clinicians and surgeons to visualize real-time, accurate, three-dimensional spatio-temporal maps of pulsatile blood perfusion underneath the skin surface using only the video of the skin surface or internal tissue. PulseCam achieves 2-3x higher sensitivity compared to the current standard of care in perfusion measurement. In contrast to existing methods that only provide a single point estimate of blood perfusion, PulseCam provides quantitative spatio-temporal blood pulsation maps achieving 1 mm spatial resolution and 1 frame-per-second temporal resolution. PulseCam achieves all these using only a video recording from a standard camera and pulse recording from a standard pulse oximeter as input making the system orders of magnitude cheaper than alternatives such as infrared thermography and Laser Doppler Perfusion Imaging. </p>
 		</div>
 		<div class="col-md-4 column">
 			<div class="embed-responsive embed-responsive-4by3">
@@ -19,17 +19,17 @@ save_as: projects.html
 
 **Know more: ** <a href="{filename}pulseCam.md"><mark>Project webpage</mark> </a>
 
-**Paper:** <mark> <a href="http://ieeexplore.ieee.org/document/7591581/" target="_blank"> Link </a></mark> &nbsp;&nbsp; |  <mark> <a href="pdfs/PulseCam.pdf"> PDF </a></mark>
+**Paper:** <mark> <a href="https://rdcu.be/b3xep" target="_blank"> Link </a></mark> &nbsp;&nbsp; |  <mark> <a href="pdfs/pulseCam_journal.pdf"> PDF </a></mark>
 
 <hr size="20"> 
 
-### CameraVitals ###
+### <a href="{filename}distancePPG.md" > CameraVitals </a> ###
 **Robust non-contact vital signs monitoring using a camera** 
 
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-8 column">
-		<p class="text-justify"><b>DistancePPG</b> is a camera-based photoplethysmogram (PPG) estimation algorithm. DistancePPG address two major challenges in camera-based vital sign monitoring: (i) extremely low signal strength of PPG signal, particularly for people with darker skin tones, and/or under low lighting conditions, (ii) motion artifacts due to movement of a person in front of a camera. DistancePPG proposes a new method of combining skin-color change signals from different regions of the face using a weighted average, where the weights depend on the blood perfusion and incident light intensity in the region, to improve the signal-to-noise ratio (SNR) of camera-based PPG estimate. The gains in SNR of camera-based PPG estimated using distancePPG translate into reduction of the error in vital sign estimation, and thus expand the scope of camera-based vital sign monitoring to potentially new scenarios. </p>
+		<p class="text-justify"><b>CameraVitals</b> is a camera-based photoplethysmogram (PPG) estimation algorithm. DistancePPG address two major challenges in camera-based vital sign monitoring: (i) extremely low signal strength of PPG signal, particularly for people with darker skin tones, and/or under low lighting conditions, (ii) motion artifacts due to movement of a person in front of a camera. DistancePPG proposes a new method of combining skin-color change signals from different regions of the face using a weighted average, where the weights depend on the blood perfusion and incident light intensity in the region, to improve the signal-to-noise ratio (SNR) of camera-based PPG estimate. The gains in SNR of camera-based PPG estimated using distancePPG translate into reduction of the error in vital sign estimation, and thus expand the scope of camera-based vital sign monitoring to potentially new scenarios. </p>
 		</div>
 		<div class="col-md-4 column">
 			<div class="embed-responsive embed-responsive-4by3">
