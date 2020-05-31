@@ -2,8 +2,12 @@ Title: Publications
 save_as: publications.html
 slug: publications
 
+## 2020
+1. **Mayank Kumar**, James W. Suliburk, Ashok Veeraraghavan, and Ashutosh Sabharwal. "pulsecam: a camera-based, motion-robust and highly sensitive blood perfusion imaging modality." Scientific Reports 10, no. 1 (2020): 1-17. <mark> <a href="https://rdcu.be/b3xep" target = "_blank"> Link </a> </mark>
+2.  **Mayank Kumar**, Keng-Tsai Lin, BS, Robert L. Thurer, MD, Siddarth Satish, MS, Gauss Surgical, Inc., Real Time Measurement of Surgical Blood Loss in Suction Tubing Using Computer Vision and Machine Learning, Society for Technology in Anesthesia, 2020. <mark> <a href="https://www.stahq.org/userfiles/files/039_STA_20AM_Abstract_Kumar%28585%29.pdf" target="_blank"> Link </a></mark>
+
 ## 2016
-1. **Mayank Kumar**, James Suliburk, Ashok Veeraraghavan and Ashutosh Sabharwal, "PulseCam: High-resolution blood perfusion imaging using a camera and a pulse oximeter," Engineering in Medicine and Biology Society (EMBC) *(to be presented during 38th IEEE EMBC conference in Orlando, FL in August, 2016)* 
+1. **Mayank Kumar**, James Suliburk, Ashok Veeraraghavan and Ashutosh Sabharwal, "PulseCam: High-resolution blood perfusion imaging using a camera and a pulse oximeter," 2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Orlando, FL, 2016, pp. 3904-3909. <mark> <a href = "https://ieeexplore.ieee.org/document/7591581" target = "_blank"> Link </a> </mark>
 
 ## 2015
 1. **Mayank Kumar**, Ashok Veeraraghavan, and Ashutosh Sabharwal, "DistancePPG: Robust non-contact vital signs monitoring using a camera," Biomedical Optics Express, vol. 6, no. 5, p. 1565, May 2015 <mark> <a href="https://www.osapublishing.org/boe/abstract.cfm?uri=boe-6-5-1565

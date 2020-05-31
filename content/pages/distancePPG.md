@@ -11,13 +11,13 @@ status: hidden
 
 ## The Problem
 
-<p class="text-justify">Measuring and monitoring any patient's vital signs is essential for their care- in fact, all care first begins by collecting vital signs like heart rate and blood pressure. The current standard of care is based on monitoring devices that require contact - electrocardiograms, pulse-oximeter, blood pressure cuffs, and chest straps. However, contact-based methods have serious limitations for monitoring vital signs of neonates as they have extremely sensitive skin and most contact-based vital sign monitoring techniques result in skin abrasions, peeling and damage every time the leads or patches are removed. This results in potentially dangerous sites for infection increasing the mortality risk to the neonates. </p>
+<p class="text-justify">Measuring and monitoring any patient's vital signs is essential for their care- in fact, all care first begins by collecting vital signs like heart rate and blood pressure. The current standard of care is based on monitoring devices that require contact - electrocardiograms, pulse-oximeter, blood pressure cuffs, and chest straps. However, contact-based methods have serious limitations for monitoring vital signs of neonates as they have extremely sensitive skin and most contact-based vital sign monitoring techniques result in skin abrasions, peeling and damage every time the leads or patches are removed. This results in potentially dangerous sites for infection increasing the mortality risk to the neonates. Further, contact-based monitoring increases the chance of infection from one patient to other as well as from patients to the healthcare works. </p>
 
 ## Our Solution
 
 <p class="text-justify">We propose to use normal camera to measure the vital signs of a patient by simply recording video of their face in a non-contact manner. From the recorded video of the face, our algorithm, distancePPG, extracts pulse rate (PR), pulse rate variability (PRV) and breathing rate (BR). The algorithm is based on estimating tiny changes in skin color due to changes in blood volume underneath the skin surface (these changes are invisible to the naked eye, but can be captured by a camera).</p>
 
-<p class="text-justify"> Our algorithm, distancePPG (patent pending), achieves clinical grade accuracy for all skin tones, under low light conditions and can account for natural motion of subjects. It does so by intelligently combining skin color change signal from different regions of the visible skin in a manner that improves the overall signal strength. Our algorithm results in as much as 6dB of SNR improvement in harsh scenarios, rapidly expanding the scope, viability, reach and utility of CameraVitals as a replacement for traditional contact-based vital sign monitor. </p>
+<p class="text-justify"> Our algorithm, distancePPG (patented), achieves clinical grade accuracy for all skin tones, under low light conditions and can account for natural motion of subjects as demonstrated in our <a href="{filename}/pdfs/distancePPG.pdf"> paper </a>. It does so by intelligently combining skin color change signal from different regions of the visible skin in a manner that improves the overall signal strength. Our algorithm results in as much as 6dB of SNR improvement in harsh scenarios, rapidly expanding the scope, viability, reach and utility of CameraVitals as a replacement for traditional contact-based vital sign monitor. </p>
 
 <div>
 	<img src="{filename}/images/paper-header.png" class="img-responsive center-block" alt="paper image" width = '80%'>
@@ -54,7 +54,7 @@ status: hidden
 </div>
 
 ## Paper 
-M. Kumar, A. Veeraraghavan, and A. Sabharwal, "DistancePPG: Robust non-contact vital signs monitoring using a camera," Biomed. Opt. Express  6, 1565-1588 (2015) <mark> (Patent Pending) </mark> <mark> <a href="{filename}/pdfs/distancePPG.pdf"> PDF </a></mark>
+M. Kumar, A. Veeraraghavan, and A. Sabharwal, "DistancePPG: Robust non-contact vital signs monitoring using a camera," Biomed. Opt. Express  6, 1565-1588 (2015) <i> (Patented) </i> <mark> <a href="{filename}/pdfs/distancePPG.pdf"> PDF </a></mark>
 
 <b>Cite (BibTex) </b>
 <pre>
@@ -80,31 +80,30 @@ Kumar, Mayank. "Robust acquisition of Photoplethysmograms using a Camera." (2014
 
 ## Vital sign and PPG Recovered from videos 
 <div class="container">
-	<div class="row clearfix">
-		<div class="col-md-4 column">
-			<h3 class="text-center">Non-Caucasian skin tones </h3> 
-			<div class="embed-responsive embed-responsive-4by3">
-  				<iframe class="embed-responsive-item" width="500" height="313" src="https://player.vimeo.com/video/121387474" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
-			<p class="text-center">Sample distancePPG performance on a <b> brown skin  tone </b> subject. DistancePPG works for all skin tones. </p>
-		</div>
-		<div class="col-md-4 column">
-			<h3 class="text-center">Motion scenario </h3> 
-			<div class="embed-responsive embed-responsive-4by3">
-  				<iframe class="embed-responsive-item" width="500" height="375" src="https://player.vimeo.com/video/121416169" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
-			<p class="text-center">Sample distancePPG performance under <b>motion scenario </b> (talking). Performance deteriorates only when there is large motion or occlusion. </p>
-		</div>
-		<div class="col-md-4 column">
-			<h3 class="text-center">Low lighting conditions </h3> 
-			<div class="embed-responsive embed-responsive-4by3">
-  				<iframe class="embed-responsive-item" width="500" height="375" src="https://player.vimeo.com/video/121419114" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
-			<p class="text-center">Sample distancePPG performance under <b> low light scenario </b> (less than 100 lux). Performance does not deteriorate.</p>
-		</div>
-	</div>
+    <div class="row clearfix">
+        <div class="col-md-4 column">
+            <h3 class="text-center">Non-Caucasian skin tones </h3> 
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" width="500" height="313" src="https://player.vimeo.com/video/121387474" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <p class="text-center">Sample distancePPG performance on a <b> brown skin  tone </b> subject. DistancePPG works for all skin tones. </p>
+        </div>
+        <div class="col-md-4 column">
+            <h3 class="text-center">Motion scenario </h3> 
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" width="500" height="375" src="https://player.vimeo.com/video/121416169" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <p class="text-center">Sample distancePPG performance under <b>motion scenario </b> (talking). Performance deteriorates only when there is large motion or occlusion. </p>
+        </div>
+        <div class="col-md-4 column">
+            <h3 class="text-center">Low lighting conditions </h3> 
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" width="500" height="375" src="https://player.vimeo.com/video/121419114" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <p class="text-center">Sample distancePPG performance under <b> low light scenario </b> (less than 100 lux). Performance does not deteriorate.</p>
+        </div>
+    </div>
 </div>
-
 
 ## Dataset 
 We plan to release the dataset comprising of the video recording of people facing the camera and the simultaneous PPG recording from the pulse-oximeter attached to person's ear. We collected the dataset by varying three important parameters of interest for camera-based vital sign estimation: (i) skin tone of subject, (ii) motion, (iii) ambient light intensity. Details about the dataset can be found <mark><a href="{filename}distancePPG-dataset.md">here </a></mark>

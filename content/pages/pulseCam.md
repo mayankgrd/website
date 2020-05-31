@@ -25,14 +25,14 @@ status: hidden
 
 
 <div>
-	<img src="{filename}/images/pulseCam_fig1.webp" class="img-responsive center-block" alt="paper image" width = '80%'>
+	<img src="{filename}/images/pulseCam_fig1.png" class="img-responsive center-block" alt="paper image" width = '80%'>
 	<p class="text-center"> <b>PulseCam - A camera-based multi-sensor blood perfusion imaging modality: </b> (a) PulseCam combines the video recording of the skin surface (or internal tissue) and a reference blood volume waveform to reliably obtain blood perfusion map over the entire imaged skin surface or tissue region, (b) a schematic diagram of PulseCam used as a bedside perfusion imaging system in critical care and the operating room, (c) a schematic diagram of PulseCam used as a hand-held imaging tool to visualize blood perfusion at surgical sites, wounds and ulcers 
 </div>
 
 ## Papers
 
 ### Journal
-Kumar, M., Suliburk, J.W., Veeraraghavan, A. et al. PulseCam: a camera-based, motion-robust and highly sensitive blood perfusion imaging modality. Sci Rep 10, 4825 (2020). https://doi.org/10.1038/s41598-020-61576-0 (Patent pending) <mark>  <a href="{filename}/pdfs/pulseCam_journal.pdf">  PDF </a></mark>
+Kumar, M., Suliburk, J.W., Veeraraghavan, A. et al. PulseCam: a camera-based, motion-robust and highly sensitive blood perfusion imaging modality. Sci Rep 10, 4825 (2020). https://doi.org/10.1038/s41598-020-61576-0 <i> (Patent pending) </i> <mark>  <a href="{filename}/pdfs/pulseCam_journal.pdf"> PDF </a></mark> | <mark> <a href="{filename}/pdfs/pulseCam_supplemental.pdf">Supplemental </a></mark>
 | <mark> <a href="https://rdcu.be/b3xep"> Web </a> </mark>
 
 <b>Cite (BibTex) </b> 
@@ -56,7 +56,7 @@ url={https://doi.org/10.1038/s41598-020-61576-0}
 </pre>
 
 ### Conference
-Kumar, M., Suliburk, J., Veeraraghavan, A., & Sabharwal, A. (2016). PulseCam: High-resolution blood perfusion imaging using a camera and a pulse oximeter. In 2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) (pp. 3904–3909). IEEE. <mark> <a href="{filename}/pdfs/PulseCam.pdf"> PDF </a></mark> | <mark> <a href = "https://ieeexplore.ieee.org/document/7591581"> Web</a> </mark>
+Kumar, M., Suliburk, J., Veeraraghavan, A., & Sabharwal, A. (2016). PulseCam: High-resolution blood perfusion imaging using a camera and a pulse oximeter. In 2016 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) (pp. 3904-3909). IEEE. <mark> <a href="{filename}/pdfs/PulseCam.pdf"> PDF </a></mark> | <mark> <a href = "https://ieeexplore.ieee.org/document/7591581"> Web</a> </mark>
 
 <b>Cite (BibTex) </b>
 <pre>
@@ -66,7 +66,6 @@ booktitle={2016 38th Annual International Conference of the IEEE Engineering in 
 title={PulseCam: High-resolution blood perfusion imaging using a camera and a pulse oximeter}, 
 year={2016}, 
 pages={3904-3909}, 
-keywords={biomedical optical imaging;blood flow measurement;medical signal processing;oximetry;video cameras;PulseCam setup;camera-only system;clinical device;disease;high-resolution blood perfusion imaging;high-resolution blood perfusion maps;injury;laser Doppler flowmetry device;medical care;multisensor modality;noisy low-resolution blood perfusion maps;palm;portable camera-based blood perfusion measurement system;post-occlusive reactive hyperemia;signal to noise ratio;spatial resolution;standard PORH response curve;traditional pulse oximeter;video camera;Blood;Cameras;Noise measurement;Pulse measurements;Signal to noise ratio;Skin}, 
 doi={10.1109/EMBC.2016.7591581}, 
 ISSN={1557-170X}, 
 month={Aug},}
